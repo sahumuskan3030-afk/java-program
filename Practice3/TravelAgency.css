@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #0d47a1;
+    padding: 15px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+}
+
+.go{
+    color: orange;
+    font-size: 1.8rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul{
+    margin-left: 680px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.hero{
+    height: 550px;
+    width: 100vw;
+    background-image: url("https://i.pinimg.com/originals/73/70/00/737000df4b8e04719d38b1b4537ebad2.jpg");
+    background-size: cover;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    color: #f4f4f4;
+}
+
+.content h1{
+    font-size: 3rem;
+   
+}
+
+.content button{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    border-radius: 10px;
+   margin-left: 100px;
+   margin-top: 10px;
+   cursor:pointer;
+}
+
+button:hover{
+    background: #e68900;
+}
+
+.Destination{
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.Destination h2{
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 15px 0;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+footer{
+       background: #0d47a1;
+       color: white;
+       text-align: center;
+       padding: 30px;
+}
+
+

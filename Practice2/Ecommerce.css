@@ -1,0 +1,74 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+body{
+    background:#f5f5f5;
+}
+
+div{
+    display:inline-block
+}
+
+.hero{
+    text-align: center;
+   background: #4CAF50;
+   color: white;
+   cursor: pointer;
+   padding: 60px;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding:10px 20px;
+    border: none;
+    background: white;
+    color:greenyellow;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card button{
+    padding:10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#fot{
+    display: flex;
+    height: 50px;
+    width: 100vw;
+   justify-content: center;
+    background-color: yellow;
+    z-index: 1;
+}
+
+.card img{
+   width: 100%;
+   border-radius: 10px;
+}
